@@ -1,0 +1,143 @@
+
+ a:link, .btn {
+     -webkit-transition: all 0.4s ease-in-out;
+     -moz-transition: all 0.4s ease-in-out;
+     -o-transition: all 0.4s ease-in-out;
+     transition: all 0.4s ease-in-out;
+     text-decoration: none;
+ }
+ 
+ 
+ body {
+     overflow-y: scroll;
+     margin: 0px;
+     padding: 0px;
+     font-family: sans-serif;
+     box-sizing:border-box
+ }
+ .menu-toggle {
+    margin-top: 10px;
+ 
+     width: 40px;
+     height: 40px;
+     border: 1px solid #000000;
+     box-sizing: border-box;
+     cursor: pointer;
+     position: relative;
+ }
+ .hamburger, .cross {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+ .hamburger span {
+     display: block;
+     width: 18px;
+     height: 2px;
+     margin-bottom: 3px;
+     overflow: hidden;
+     position: relative;
+     background-color: #000;
+ }
+ .hamburger span:last-child {
+     margin: 0;
+ }
+   .hamburger {
+       vertical-align: middle;
+     }
+ 
+ 
+   .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{width:25px;height:2px;}
+ .hamburger-box {
+         margin-left: 5px;
+     margin-top: 5px;
+     width: 30px;
+ }
+ .hamburger-inner:before{top:-8px;}
+ .hamburger-inner:after {
+     bottom: -8px;
+ }
+ .menu-humburger{display:none;
+     border-width: 0px;
+     background-color: #000000;
+     opacity: 0.56;
+     border-radius: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+ .active{display:block}
+ 
+ {}
+ .menu-humburger .items{
+     list-style: none;padding:10px;margin: 0;}
+ .menu-humburger .items li {margin:0px;padding:8px;}
+ .menu-humburger .items li a{color:#fff}
+ .menu-humburger .items li:hover{
+         background-color: #999999;
+         border-radius:10px;
+ }
+ .container-banner img{max-width:100%;height:auto}
+ .content-banner h1{font-family: 'lato-bold', sans-serif;}
+ .pos-relative{position:relative;}
+ .content-banner{position:absolute;top:35%;left:0px}
+ .content-banner h6{margin-top:25px;font-size:20px;}
+ .content-banner p{font-size:14px;}
+ .actions-content .btn-outline-dark{margin-bottom:10px;font-size: 13px;border-radius:25px;margin-right:10px; margin-top:5px;font-family: 'Quicksand', sans-serif;width: 250px;
+     text-align: center;}
+ .content-banner h6, .content-banner p {
+     font-family: 'Quicksand', sans-serif;
+ }
+ 
+ .we-work-with-container{background-color:#ececec;min-height:250px;}
+ .we-work-with-container h3,.our-services h3 ,.unique-training-ex h3,
+ .who-chose-salalem h3{font-size:20px;padding-top:15px;font-family: 'lato-bold'}
+ .our-services-img img {max-width:100%;height:auto;}
+ .our-services-img{clear:both}
+ .our-services-desc{position:absolute;top:45%;}
+ .our-services-desc p{text-transform:capitalize;font-size:16px;color:#808080}
+ .unique-training-ex{    background-color: #ececec;}
+ .unique-training-ex .item h6{font-family: 'lato-bold';text-align:center}
+ .unique-training-ex .item p ,.who-chose-salalem .item p{font-size:12px;color:#000;margin-top:15px;text-align:center;padding-bottom:50px;}
+ .unique-training-ex .item .img-contain ,.who-chose-salalem .img-contain {text-align:center}
+ .unique-training-ex .item .img-contain img ,.who-chose-salalem .img-contain img{display:inline-block;max-width:100%;height:auto}
+ .who-chose-salalem h3 {
+     margin-top: 40px;
+     margin-bottom:60px;
+ }
+ .who-chose-salalem .item p{font-weight:bold}
+ .footer-links{list-style:none;padding:0px;}
+ .footer-content{margin-top:50px;}
+ .footer-content .item h6{font-weight:bold;margin-bottom:20px;}
+ .footer-links li{margin-bottom:5px;}
+ .copyright{font-size:14px;margin-bottom:20px;}
+ .footer-links li a{color:#000}
+ 
+ 
+ 
+ 
+ 
+ @media only screen and (max-width:768px)
+ {
+     .content-banner h1{font-size:24px;text-align:center}
+
+     .menu-humburger{top:-100%}
+     .actions-content{text-align:center}
+     .centerlized-hr img{max-width:100%}
+     .process-desc{text-align:center}
+     .process-img img{float:none;max-width:250px;display:inline-block;margin:20px 0px;}
+     .process-img{text-align:center}
+     .content-banner,.our-services-desc{position:static}
+     .footer-content{text-align:center}
+     .our-services{text-align:center}
+     header{margin-bottom:50px;}
+     .we-work-with-container h3, .our-services h3, .unique-training-ex h3,
+      .who-chose-salalem h3 ,.why-chose-salalem h3 {margin-bottom:30px;}
+
+      .learner-engagment-desc{position:static !important;}
+      .learner-container .col-md-6{margin-bottom:80px;}
+      .hidden-xs{display:none}
+      
+ }

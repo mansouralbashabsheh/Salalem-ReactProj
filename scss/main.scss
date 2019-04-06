@@ -1,0 +1,16 @@
+.top-menu{
+    .clearfix{
+        .float-right{
+            .menu-toggle{
+                margin-top: 10px;
+
+                width: 40px;
+                height: 40px;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                cursor: pointer;
+                position: relative;
+            }
+        }
+    }
+}
